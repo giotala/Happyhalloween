@@ -4,7 +4,7 @@
 }
 .scare {
     justify-content: center;
-    animation: scary 3s;
+    animation: scary 3s infinite;
 }
 
 @keyframes scary {
