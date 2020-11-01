@@ -4,7 +4,7 @@
 }
 .scare {
     justify-content: center;
-    animation: scary 4s;
+    animation: scary 3s;
 }
 
 @keyframes scary {
@@ -26,10 +26,16 @@
     80% {
         transform: translateX(2000px);
     }
-    90% {
+    85% {
         transform: translateY(-2000px);
     }
+    90% {
+        transform: translateX(-2000px);
+    }
+    95% {
+        transform: scale(10, 18)
+    }
     100% {
-        transform: scale(15)
+        transform: scale(10, 18)
     }
 }
